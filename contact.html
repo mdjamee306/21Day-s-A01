@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact With Me</title>
+    <script src="tailwind.config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#FEFAE0]">
+    <header>
+        <div class="bg-[#CBCDA9] w-full h-[50px]"></div>
+        <nav class="bg-[#FFFFE9] flex justify-center gap-12 py-9 text-lg font-medium">
+            <a href="./index.html">Home</a>
+            <a href="./index.html">About us</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="text-center">
+        <h3 class="text-lg lg:text-[96px] font-bold">Contact Us</h3>
+        <p class="lg:text-[24px] py-8 font-semibold lg:w-full w-1/2 mx-auto">Get in touch! Have a question or feedback? Use our contact form or drop us an email. We're here to help!
+        </p>
+    </div>
+    <section class="text-gray-600 ">
+        <div class="px-5 py-24 mx-auto grid grid-cols-1 md:grid-cols-2">
+            <div class="flex justify-end">
+                <img class="rounded-l-lg" src="./img/Map Image.png" alt="Map Img">
+            </div>
+            <div class="justify-start bg-[#201F1F] flex flex-col md:py-8 lg:px-[35px] rounded-r-lg mr-auto mt-8 md:mt-0">
+                <h2 class="text-white text-lg mb-1 font-medium title-font">Get in touch with us</h2>
+                <div class=" mb-4">
+                    <label for="name" class="leading-7 text-sm text-[#CCC6C6]">Name</label>
+                    <input type="text" id="name" name="name"
+                        class="w-full bg-[#343333] rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class=" mb-4">
+                    <label for="email" class="leading-7 text-sm text-[#CCC6C6]">Email</label>
+                    <input type="email" id="email" name="email"
+                        class="w-full bg-[#343333] rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class=" mb-4">
+                    <label for="message" class="leading-7 text-sm text-[#CCC6C6]">Message</label>
+                    <textarea id="message" name="message"
+                        class="w-full bg-[#343333] rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+                <button
+                    class="text-black bg-[#F3F25B] border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Send my message</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
